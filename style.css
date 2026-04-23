@@ -1,0 +1,84 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    text-align: center;
+    background: linear-gradient(to left, #eef2ff, #c7d2fe);
+}
+h1{
+    color: rgb(6, 74, 156);
+    padding-top: 20px;
+}
+
+h3{ text-align: center;
+    color: #435b7b;}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 50%;
+    margin-left: 400px;
+    width: 1100px;
+    margin: auto;
+    
+}
+.card-container p{
+    font-size: 40px;
+    margin: 10px 0;
+    color: #58514c;
+    font-weight: bold;
+}
+
+.card-container small{
+            font-style: italic;}
+
+.chart-container{
+    background: linear-gradient( rgb(238, 239, 234),rgb(191, 191, 241));
+    width: 50%;
+    margin-left: 400px;
+    width: 1100px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 12px;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+    padding: 10px;
+   
+}
+
+.card{
+    
+    height: 120px;
+    width: 40%;
+    background: linear-gradient( rgb(238, 239, 234),rgb(191, 191, 241));
+    border-radius: 8px;
+    padding:20px;
+    box-shadow: 0 4px 10px rgba(10, 10, 10, 0.1);
+    
+}
+
+.container{
+  position: relative;
+  height: 300px;
+  width: 100%;
+  margin-bottom: 100px;
+  
+}
+
+    @media (max-width: 1024px) {
+        .chart-container{
+            margin-left: 10px;
+            width: 95%;
+            padding: 5px;
+        }
+        .card-container{
+            margin-left: 90px;
+            width: 55%;
+        }
+        .card-container h3{
+            font-size: 0.75rem;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+    }
+    
